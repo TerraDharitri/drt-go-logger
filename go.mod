@@ -3,7 +3,7 @@ module github.com/TerraDharitri/drt-go-logger
 go 1.20
 
 require (
-	github.com/TerraDharitri/drt-go-core v0.0.1
+	github.com/TerraDharitri/drt-go-core v0.0.2
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.10.0
 )
@@ -19,3 +19,5 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/gogo/protobuf => github.com/TerraDharitri/protobuf v0.0.1
